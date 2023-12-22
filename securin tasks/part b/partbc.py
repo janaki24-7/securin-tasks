@@ -22,6 +22,7 @@ def undoom_dice(a1,a2):
         for j in range(len(comb)):
             New_dice_A=comb[j]
         f_p=calp(New_dice_A,New_dice_B)
+        h+=1
         if i_p==f_p:
             return New_dice_A,New_dice_B
 
